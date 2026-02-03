@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/63fd8108e78043ccb00c0cd2b3b5749b/artifacts
+end_time: 1770129652843
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 63fd8108e78043ccb00c0cd2b3b5749b
+run_name: zealous-stork-838
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652837
+status: 3
+tags: []
+user_id: simon_ramirez

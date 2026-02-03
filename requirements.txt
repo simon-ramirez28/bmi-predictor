@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+plotly
+matplotlib
+seaborn
+scipy
+mlflow>=2.10.0

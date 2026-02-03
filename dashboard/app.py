@@ -16,23 +16,32 @@ st.set_page_config(
 # --- Load Model ---
 @st.cache_resource
 def load_model():
-    model_path = '../models/models_exported/bmi_model.pkl'
-    # Use absolute path relative to this script if needed, but ../ works from 'dashboard' dir
-    # Streamlit runs from the root usually, but let's handle paths safely
-    # If run as `streamlit run dashboard/app.py`, cwd is project root.
-    # If run as `cd dashboard && streamlit run app.py`, cwd is dashboard.
+    """Load model with support for Docker and local development paths."""
+    # Priority order: Docker env var > project root > dashboard parent
+    possible_paths = [
+        os.environ.get('MODEL_PATH'),  # Docker/Production
+        'models/models_exported/bmi_model.pkl',  # Running from project root
+        '../models/models_exported/bmi_model.pkl',  # Running from dashboard/
+        '/app/models/models_exported/bmi_model.pkl',  # Docker absolute path fallback
+    ]
     
-    if os.path.exists(model_path):
-        with open(model_path, 'rb') as f:
-            model = pickle.load(f)
-        return model
-    elif os.path.exists('models/models_exported/bmi_model.pkl'): # fallback if run from root
-        with open('models/models_exported/bmi_model.pkl', 'rb') as f:
-            model = pickle.load(f)
-        return model
-    else:
-        st.error(f"Model file not found. Expected at {model_path} or models/models_exported/bmi_model.pkl")
-        return None
+    for path in possible_paths:
+        if path and os.path.exists(path):
+            try:
+                with open(path, 'rb') as f:
+                    model = pickle.load(f)
+                st.success(f"✅ Model loaded successfully from: {path}")
+                return model
+            except Exception as e:
+                st.warning(f"Found model at {path} but failed to load: {e}")
+                continue
+    
+    st.error(
+        "❌ Model file not found. Searched in:\n"
+        + "\n".join([f"  - {p}" for p in possible_paths if p])
+        + "\n\nPlease ensure the model file exists or set MODEL_PATH environment variable."
+    )
+    return None
 
 try:
     model = load_model()

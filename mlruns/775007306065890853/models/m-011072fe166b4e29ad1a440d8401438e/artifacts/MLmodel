@@ -1,0 +1,23 @@
+artifact_path: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/models/m-011072fe166b4e29ad1a440d8401438e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-011072fe166b4e29ad1a440d8401438e
+model_size_bytes: 552415
+model_uuid: m-011072fe166b4e29ad1a440d8401438e
+prompts: null
+run_id: 7f84b4bb50a64f37a7b3eac54f75251d
+utc_time_created: '2026-02-03 14:40:53.130565'

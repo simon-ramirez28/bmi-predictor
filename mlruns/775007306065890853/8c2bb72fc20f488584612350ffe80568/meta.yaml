@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/8c2bb72fc20f488584612350ffe80568/artifacts
+end_time: 1770129652821
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 8c2bb72fc20f488584612350ffe80568
+run_name: gaudy-bat-47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652815
+status: 3
+tags: []
+user_id: simon_ramirez

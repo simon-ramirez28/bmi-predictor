@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/09de2b81d9f74f18ab6f05c7f7188e18/artifacts
+end_time: 1770129652791
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 09de2b81d9f74f18ab6f05c7f7188e18
+run_name: luxuriant-boar-602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652785
+status: 3
+tags: []
+user_id: simon_ramirez

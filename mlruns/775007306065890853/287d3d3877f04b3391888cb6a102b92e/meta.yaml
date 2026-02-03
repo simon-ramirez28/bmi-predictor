@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/287d3d3877f04b3391888cb6a102b92e/artifacts
+end_time: 1770129652836
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 287d3d3877f04b3391888cb6a102b92e
+run_name: bouncy-skink-461
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652830
+status: 3
+tags: []
+user_id: simon_ramirez

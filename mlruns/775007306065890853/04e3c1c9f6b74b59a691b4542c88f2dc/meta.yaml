@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/04e3c1c9f6b74b59a691b4542c88f2dc/artifacts
+end_time: 1770129652799
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 04e3c1c9f6b74b59a691b4542c88f2dc
+run_name: aged-panda-25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652793
+status: 3
+tags: []
+user_id: simon_ramirez

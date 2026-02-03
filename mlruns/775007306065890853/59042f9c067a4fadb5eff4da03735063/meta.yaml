@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/59042f9c067a4fadb5eff4da03735063/artifacts
+end_time: 1770129652813
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 59042f9c067a4fadb5eff4da03735063
+run_name: delicate-lynx-894
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652807
+status: 3
+tags: []
+user_id: simon_ramirez

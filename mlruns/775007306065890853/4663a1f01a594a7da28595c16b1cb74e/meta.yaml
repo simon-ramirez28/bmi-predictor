@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/4663a1f01a594a7da28595c16b1cb74e/artifacts
+end_time: 1770129652859
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 4663a1f01a594a7da28595c16b1cb74e
+run_name: upset-cow-851
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652853
+status: 3
+tags: []
+user_id: simon_ramirez

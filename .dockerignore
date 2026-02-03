@@ -1,0 +1,15 @@
+.venv
+venv
+__pycache__/
+*.pyc
+mlruns/
+mlruns_artifacts/
+notebooks/
+scripts/
+.git/
+.gitignore
+*.md
+!README.md
+Dockerfile
+docker-compose.yml
+.dockerignore

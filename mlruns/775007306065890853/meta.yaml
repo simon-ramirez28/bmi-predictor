@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853
+creation_time: 1770129650099
+experiment_id: '775007306065890853'
+last_update_time: 1770129650099
+lifecycle_stage: active
+name: bmi-predictor-random-forest

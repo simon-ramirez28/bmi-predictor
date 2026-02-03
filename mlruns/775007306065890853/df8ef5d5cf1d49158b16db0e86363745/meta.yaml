@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/df8ef5d5cf1d49158b16db0e86363745/artifacts
+end_time: 1770129652784
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: df8ef5d5cf1d49158b16db0e86363745
+run_name: crawling-duck-280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770129652778
+status: 3
+tags: []
+user_id: simon_ramirez
