@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/734e38cb2019413c836c9ca11cdea15a/artifacts
+end_time: 1770131545925
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 734e38cb2019413c836c9ca11cdea15a
+run_name: flawless-kit-173
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545918
+status: 3
+tags: []
+user_id: simon_ramirez

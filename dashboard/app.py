@@ -85,7 +85,7 @@ st.sidebar.info("Adjust the sliders in the main panel to calculate BMI.")
 
 # --- Main Panel ---
 st.title("⚖️ BMI Health Dashboard")
-st.markdown("### Monitor your health metrics instantly with AI")
+st.markdown("### Monitor your health metrics instantly")
 
 col1, col2 = st.columns(2)
 

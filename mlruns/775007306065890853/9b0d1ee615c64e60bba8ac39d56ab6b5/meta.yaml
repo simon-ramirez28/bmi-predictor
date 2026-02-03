@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/9b0d1ee615c64e60bba8ac39d56ab6b5/artifacts
+end_time: 1770131545973
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 9b0d1ee615c64e60bba8ac39d56ab6b5
+run_name: rebellious-hawk-967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545967
+status: 3
+tags: []
+user_id: simon_ramirez

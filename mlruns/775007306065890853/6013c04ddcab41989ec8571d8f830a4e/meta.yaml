@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/6013c04ddcab41989ec8571d8f830a4e/artifacts
+end_time: 1770131545891
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 6013c04ddcab41989ec8571d8f830a4e
+run_name: masked-carp-257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545884
+status: 3
+tags: []
+user_id: simon_ramirez

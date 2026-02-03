@@ -1,0 +1,10 @@
+artifact_location: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/models/m-b5a3e7dbce654a68a9047d6b68ff642a/artifacts
+creation_timestamp: 1770131546226
+experiment_id: '775007306065890853'
+last_updated_timestamp: 1770131548356
+model_id: m-b5a3e7dbce654a68a9047d6b68ff642a
+model_type: null
+name: model
+source_run_id: 3fe3d594c3d94a5a866c4b5e5a002f82
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/265f9d8f004442fa9fa1b7e55db4355f/artifacts
+end_time: 1770131545940
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 265f9d8f004442fa9fa1b7e55db4355f
+run_name: welcoming-stork-201
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545934
+status: 3
+tags: []
+user_id: simon_ramirez

@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/702de9754b674c18b88777df93393764/artifacts
+end_time: 1770131545965
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 702de9754b674c18b88777df93393764
+run_name: judicious-rook-16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545959
+status: 3
+tags: []
+user_id: simon_ramirez

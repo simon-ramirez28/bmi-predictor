@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/3fe3d594c3d94a5a866c4b5e5a002f82/artifacts
+end_time: 1770131548381
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 3fe3d594c3d94a5a866c4b5e5a002f82
+run_name: random-forest-gridsearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131543430
+status: 3
+tags: []
+user_id: simon_ramirez

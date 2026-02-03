@@ -3,5 +3,5 @@ creation_timestamp: 1770129655423
 deployment_job_id: null
 deployment_job_state: null
 description: null
-last_updated_timestamp: 1770129655424
+last_updated_timestamp: 1770131548365
 name: bmi-predictor-rf

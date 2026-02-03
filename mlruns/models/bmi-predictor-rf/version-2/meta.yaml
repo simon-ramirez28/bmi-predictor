@@ -1,0 +1,15 @@
+creation_timestamp: 1770131548365
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1770131548365
+model_id: m-b5a3e7dbce654a68a9047d6b68ff642a
+name: bmi-predictor-rf
+run_id: 3fe3d594c3d94a5a866c4b5e5a002f82
+run_link: null
+source: models:/m-b5a3e7dbce654a68a9047d6b68ff642a
+status: READY
+status_message: null
+storage_location: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/models/m-b5a3e7dbce654a68a9047d6b68ff642a/artifacts
+user_id: null
+version: 2

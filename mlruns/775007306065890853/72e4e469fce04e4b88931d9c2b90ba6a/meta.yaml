@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/72e4e469fce04e4b88931d9c2b90ba6a/artifacts
+end_time: 1770131545932
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 72e4e469fce04e4b88931d9c2b90ba6a
+run_name: stately-shad-699
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545926
+status: 3
+tags: []
+user_id: simon_ramirez

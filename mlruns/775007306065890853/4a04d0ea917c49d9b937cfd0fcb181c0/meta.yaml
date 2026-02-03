@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/4a04d0ea917c49d9b937cfd0fcb181c0/artifacts
+end_time: 1770131545981
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 4a04d0ea917c49d9b937cfd0fcb181c0
+run_name: resilient-hen-478
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545974
+status: 3
+tags: []
+user_id: simon_ramirez

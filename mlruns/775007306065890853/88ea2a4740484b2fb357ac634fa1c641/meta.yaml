@@ -1,0 +1,14 @@
+artifact_uri: file:///mnt/Datos/Programacion/bmi-predictor/mlruns/775007306065890853/88ea2a4740484b2fb357ac634fa1c641/artifacts
+end_time: 1770131545957
+entry_point_name: ''
+experiment_id: '775007306065890853'
+lifecycle_stage: active
+run_id: 88ea2a4740484b2fb357ac634fa1c641
+run_name: dashing-goat-70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770131545950
+status: 3
+tags: []
+user_id: simon_ramirez
