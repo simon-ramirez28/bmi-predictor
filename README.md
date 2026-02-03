@@ -32,7 +32,8 @@ BMI Predictor is a production-ready Machine Learning pipeline that predicts BMI 
 - Streamlit-based web UI for real-time predictions
 - Visual gauges and color-coded health categories
 - Responsive design with sidebar controls
-- **Screenshot**: *Dashboard showing BMI prediction with health gauge*
+<img width="2543" height="1325" alt="image" src="https://github.com/user-attachments/assets/31074331-1fe1-4c56-9b01-c380da597818" />
+
 
 ```
 ┌─────────────────────────────────────────┐
@@ -52,7 +53,6 @@ BMI Predictor is a production-ready Machine Learning pipeline that predicts BMI 
 - **Metrics Logging**: Accuracy, precision, recall, F1 per class
 - **Artifact Management**: Model files (.pkl) and confusion matrices
 - **Model Registry**: Versioned models with MLflow model registry
-- **Screenshot**: *MLflow UI showing experiment comparison*
 
 ### 🐳 Docker Containerization
 - Multi-stage build for optimized image size (~150MB)
@@ -128,8 +128,6 @@ bmi-predictor/
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Screenshot Placeholder**: *Architecture diagram showing data flow from user → Docker → Model → Prediction → Dashboard*
-
 ---
 
 ## ⚡ Quick Start
@@ -194,20 +192,8 @@ mlflow ui --backend-store-uri file://$(pwd)/mlruns
 
 ```bash
 $ python scripts/train_with_mlflow.py
-
-🚀 Starting BMI Predictor Training with MLflow
-✅ MLflow configured: /path/to/mlruns
-✅ Data loaded: 486 rows, 5 columns
-🔍 Starting GridSearchCV...
-  Run 1/12: accuracy=0.9511, params={'n_estimators': 50, 'max_depth': 10, ...}
-  ...
-  Run 12/12: accuracy=0.9588, params={'n_estimators': 100, 'max_depth': None, ...}
-🎯 Test Accuracy: 1.0000
-✅ Training complete! Run ID: 7f84b4bb50a64f37a7b3eac54f75251d
-🌐 View results: mlflow ui --backend-store-uri file:///path/to/mlruns
 ```
-
-**Screenshot Placeholder**: *MLflow UI showing parallel coordinate plot comparing hyperparameter runs*
+<img width="1190" height="877" alt="Captura desde 2026-02-03 10-13-02" src="https://github.com/user-attachments/assets/60669cbe-ded1-4349-9ec3-f9ac6f866a80" />
 
 ---
 
@@ -299,7 +285,7 @@ docker run -d \
 | 4 - Obesity | 1.00 | 1.00 | 1.00 | 26 |
 | 5 - Extreme Obesity | 1.00 | 1.00 | 1.00 | 39 |
 
-**Screenshot Placeholder**: *Confusion matrix heatmap showing perfect classification*
+<img width="1368" height="1181" alt="confusion_matrix" src="https://github.com/user-attachments/assets/b4ae7749-b62c-4ea2-a0e5-466b9fb4c9ae" />
 
 ---
 
