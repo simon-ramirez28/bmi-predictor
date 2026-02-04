@@ -34,7 +34,8 @@ BMI Predictor is a production-ready Machine Learning pipeline that predicts BMI 
 - Streamlit-based web UI for real-time predictions
 - Visual gauges and color-coded health categories
 - Responsive design with sidebar controls
-<img width="2543" height="1325" alt="image" src="https://github.com/user-attachments/assets/31074331-1fe1-4c56-9b01-c380da597818" />
+<img width="2543" height="1325" alt="image" src="https://github.com/user-attachments/assets/0ed6a870-01b4-450e-92ab-fb00ec776f1a" />
+
 
 
 ```
