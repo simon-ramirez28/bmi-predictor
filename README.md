@@ -6,6 +6,8 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange.svg)](https://scikit-learn.org/)
 [![MLflow](https://img.shields.io/badge/MLflow-tracking-blue.svg)](https://mlflow.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![CI/CD](https://github.com/simon-ramirez28/bmi-predictor/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/simon-ramirez28/bmi-predictor/actions)
+[![GitHub Container Registry](https://img.shields.io/badge/GHCR-ready-blue.svg)](https://github.com/simon-ramirez28/bmi-predictor/pkgs/container/bmi-predictor)
 
 ## 📋 Summary
 
@@ -16,7 +18,7 @@ BMI Predictor is a production-ready Machine Learning pipeline that predicts BMI 
 - **Interactive Dashboard**: Real-time predictions with visual gauges
 - **Experiment Tracking**: Full MLflow integration for hyperparameter tuning
 - **Production Ready**: Docker containerization with health checks
-- **CI/CD Automation**: Automated training scripts for pipelines
+- **CI/CD Automation**: GitHub Actions pipeline with Docker registry
 
 ---
 
@@ -234,6 +236,47 @@ docker run -d \
 
 ---
 
+## 🔄 CI/CD Pipeline
+
+This project uses **GitHub Actions** for continuous integration and deployment.
+
+### Pipeline Stages
+
+| Stage | Description | Trigger |
+|-------|-------------|---------|
+| **Test** | Run pytest, validate model with test suite | Push/PR to any branch |
+| **Build** | Build Docker image, vulnerability scan with Trivy | Push/PR to any branch |
+| **Deploy** | Push image to GitHub Container Registry (ghcr.io) | Push to `main` or `master` |
+
+### Features
+
+- ✅ **Automated Testing**: Runs `pytest test/` on every commit
+- 📤 **Docker Image Building**: Multi-stage build with Buildx
+- 🔍 **Security Scanning**: Trivy vulnerability scanner for critical/high CVEs
+- 📊 **Artifact Upload**: Test results and reports
+- 🏷️ **Multi-tag Support**: `latest`, branch names, commit SHA, and PR tags
+- 💾 **Build Caching**: GitHub Actions cache for faster builds
+
+### GitHub Container Registry
+
+Images are automatically pushed to **ghcr.io**:
+
+```bash
+# Pull the latest image
+docker pull ghcr.io/simon-ramirez28/bmi-predictor:latest
+
+# Run the container
+docker run -p 8501:8501 ghcr.io/simon-ramirez28/bmi-predictor:latest
+```
+
+### Workflow Configuration
+
+The workflow is defined in `.github/workflows/ci-cd.yml` and runs on:
+- Push to `main`, `master`, or `develop` branches
+- Pull requests to `main`, `master`, or `develop` branches
+
+---
+
 ## 📊 Model Development Workflow
 
 1. **📥 ETL** (`01-ETL.ipynb`)
@@ -344,6 +387,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For issues or questions:
 - Check [`AGENTS.md`](AGENTS.md) for development guidelines
-- Review the [GitHub Issues](https://github.com/yourusername/bmi-predictor/issues) page
+- Review the [GitHub Issues](https://github.com/simon-ramirez28/bmi-predictor/issues) page
 
 ---
